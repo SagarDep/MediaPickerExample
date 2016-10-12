@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import multiplemediapicker.CallBackMediaPicker;
 import multiplemediapicker.MediaPicker;
 
+/**
+ * Created by Prashant Maheshwari  on 10/10/2016.
+ */
 public class MainActivity extends AppCompatActivity {
 
     MediaPicker instance = MediaPicker.getInstance();
@@ -14,6 +17,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // below functions to customize media picker
+      /*  instance.setNumberOfColoums(2);
+        instance.setHeaderBackgroundColor(R.color.colorPrimary);
+        instance.setHandleColor(R.color.colorPrimary);
+        instance.setMaximumSelectionLimit(15);
+        instance.setHeaderTitleColor(R.color.white);*/
 
         instance.PickMedia(this, true, new CallBackMediaPicker() {
             @Override

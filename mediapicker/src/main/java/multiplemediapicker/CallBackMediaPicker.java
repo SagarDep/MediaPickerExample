@@ -1,7 +1,7 @@
 package multiplemediapicker;
 
 /**
- * Created by prashantm on 4/20/2016.
+ * Created by Prashant Maheshwari  on 10/10/2016.
  */
 public interface CallBackMediaPicker {
 

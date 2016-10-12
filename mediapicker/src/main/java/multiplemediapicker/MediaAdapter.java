@@ -24,7 +24,7 @@ import java.util.List;
 import smartandrodev.mediapicker.R;
 
 /**
- * Created by prashantm on 8/31/2016.
+ * Created by Prashant Maheshwari  on 10/10/2016.
  */
 public class MediaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

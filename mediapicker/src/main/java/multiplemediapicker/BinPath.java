@@ -3,7 +3,7 @@ package multiplemediapicker;
 import java.util.ArrayList;
 
 /**
- * Created by prashantm on 8/31/2016.
+ * Created by Prashant Maheshwari  on 10/10/2016.
  */
 public class BinPath {
     public static final int REQ_CODE_PICK_SINGLE = 8888;

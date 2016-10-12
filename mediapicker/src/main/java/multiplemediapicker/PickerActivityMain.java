@@ -36,7 +36,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import smartandrodev.mediapicker.R;
-
+/**
+ * Created by Prashant Maheshwari  on 10/10/2016.
+ */
 public class PickerActivityMain extends AppCompatActivity {
 
     private MediaAdapter mediaAdapter;

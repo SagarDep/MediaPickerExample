@@ -7,7 +7,7 @@ import android.content.Intent;
 import smartandrodev.mediapicker.R;
 
 /**
- * Created by prashantm on 9/6/2016.
+ * Created by Prashant Maheshwari  on 10/10/2016.
  */
 public class MediaPicker {
     private static MediaPicker _instance;
@@ -26,6 +26,8 @@ public class MediaPicker {
         if (_instance == null) {
             _instance = new MediaPicker();
         }
+
+
         return _instance;
     }
 
