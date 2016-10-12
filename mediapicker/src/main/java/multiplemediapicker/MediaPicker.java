@@ -3,6 +3,7 @@ package multiplemediapicker;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.support.annotation.NonNull;
 
 import smartandrodev.mediapicker.R;
 
@@ -32,6 +33,9 @@ public class MediaPicker {
     }
 
     public void setHeaderBackgroundColor(int headerColorResource_) {
+        if (0==headerColorResource_) {
+            throw new IllegalArgumentException("Header Color cannot be 0");
+        }
         this.headerBackGroundColorResource = headerColorResource_;
     }
     public void setHandleColor(int handleColor_) {
@@ -52,7 +56,8 @@ public class MediaPicker {
         this.selectionImageResource = selectionImageResource_;
     }
 
-    public void setNumberOfColoums(int numberOfColoms_) {
+    public void setNumberOfColoums( int numberOfColoms_) {
+
         if (numberOfColoms_ > 4) {
 
             return;
