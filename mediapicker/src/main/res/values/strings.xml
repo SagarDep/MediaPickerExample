@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MultipleMediaPicker</string>
+    <string name="there_is_no_media..">There is no media on disk.</string>
+
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="photos_selected">Photos Selected</string>
+    <string name="photo_selected">Photo Selected</string>
+    <string name="videos_selected">Videos Selected</string>
+    <string name="video_selected">Video Selected</string>
+</resources>
